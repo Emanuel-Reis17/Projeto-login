@@ -35,6 +35,9 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.451);
     overflow: hidden;
+
+    transition: width 0.3s, height 0.3s; /*Importante*/
+    transition-timing-function: ease;
 }
 
 div#imagem {
@@ -50,4 +53,14 @@ div#imagem {
 div#form {
     display: block;
     padding: 10px;
+}
+
+div#form > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+div#form > p {
+    font-size: 1.2em;
 }
