@@ -33,12 +33,12 @@
 
     div#imagem {
         float: right;
-        width: 50vw;
+        width: 35vw;
         height: 70vh;
     }
 
     div#form {
         float: left;
-        width: 40vw;
+        width: 30vw;
     }
 }
