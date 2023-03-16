@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /*Configuração para Tablet*/
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -32,13 +32,13 @@
     }
 
     div#imagem {
-        float: right;
+        float: left;
         width: 35vw;
         height: 70vh;
     }
 
     div#form {
-        float: left;
-        width: 30vw;
+        float: right;
+        width: 55vw;
     }
 }
